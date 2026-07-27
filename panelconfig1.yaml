@@ -1,13 +1,18 @@
 nodes:
   - id: router
     label: Router
+    color: "#4CAF50"
   - id: switch
     label: Switch
+    color: "#2196F3"
   - id: server
     label: Server
+    color: "#FF9800"
 
 edges:
   - source: router
     target: switch
+    color: "black"
   - source: switch
     target: server
+    color: "black"

@@ -1,0 +1,13 @@
+nodes:
+  - id: router
+    label: Router
+  - id: switch
+    label: Switch
+  - id: server
+    label: Server
+
+edges:
+  - source: router
+    target: switch
+  - source: switch
+    target: server
